@@ -9,7 +9,23 @@
   <h1><center> Welcome</center></h1>
   
 
-  
+  <form action="/inserir" method="POST"
+enctype="multipart/form-data">
+ Foto: <input type="file" name="foto" accept="image/png|
+image/jpeg" />
+ Nome: <input type="text" name="nome" />
+ Sobrenome: <input type="text" name="sobrenome" />
+ E-mail: <input type="email" name="email" />
+    
+ <input type="submit" value="Enviar" />
+</form>
+    <form id="meu-form" action="/inserir" method="POST">
+ <label for="usuario-nome">Nome:</label>
+ <textarea for="meu-form" name="comentario"></textarea>
+ <input type="submit" value="Enviar" />
+</form>
+
+
  </div>
  </div>
 

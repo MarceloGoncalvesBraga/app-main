@@ -15,3 +15,6 @@ dados_post = request.data
 
 @app.route("/usuario", methods=['GET', 'POST'])
 def inserir():
+
+#request.headers.get('nome-do-cabeçalho')
+#request.headers['nome-do-cabeçalho']
